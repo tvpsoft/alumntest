@@ -1,6 +1,6 @@
 # Phuong AlumnTest
 
-## [**Sujet 1**](/php/TerrainLeveling.php)
+## [**Sujet 1 -  TerrainLeveling **](/php/TerrainLeveling.php)
 ### [**Problem Statement**](/php/TerrainLeveling.php)
 
 You are building a new house. You have already purchased a rectangular area where you will place the house.
@@ -55,7 +55,7 @@ OK (1 test, 4 assertions)
 
 
 
-## [**Sujet 2**](/js/DoubleXor.js)
+## [**Sujet 2 -  DoubleXor **](/js/DoubleXor.js)
 
 ### [**Problem Statement**](/js/DoubleXor.js)
 
