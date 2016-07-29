@@ -91,3 +91,5 @@ You are given an int N. Return the value of N ^^ (N ­ 1) ^^ (N ­ 2) ^^ ... ^^ 
 **Run Unit Test**
 
 Simply just open the [DoubleXorTest.html](/js/DoubleXorTest.html) in your browser.
+
+![DoubleXorTest](/js/DoubleXorTest.png)
