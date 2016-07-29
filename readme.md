@@ -1,15 +1,15 @@
 # Phuong AlumnTest
 
-## [**Sujet 1**]()
-### [**Problem Statement**]()
+## [**Sujet 1**](/php/TerrainLeveling.php)
+### [**Problem Statement**](/php/TerrainLeveling.php)
 
-You are building a new house. You have already purchased a rectangular area where you will place the house. 
-The basement of the house should be built on a level ground, so you will have to level the entire area. 
-The area is leveled if the difference between the heights of its lowest and highest square meter is at most 1. 
-You want to measure the effort you need to put into ground leveling. 
+You are building a new house. You have already purchased a rectangular area where you will place the house.
+The basement of the house should be built on a level ground, so you will have to level the entire area.
+The area is leveled if the difference between the heights of its lowest and highest square meter is at most 1.
+You want to measure the effort you need to put into ground leveling.
 
-You are given a string[] area. Each character in area denotes the height at the corresponding square meter of the terrain area. 
-Using 1 unit of effort, you can change the height of any square meter on his area by 1 up or down. 
+You are given a string[] area. Each character in area denotes the height at the corresponding square meter of the terrain area.
+Using 1 unit of effort, you can change the height of any square meter on his area by 1 up or down.
 Return the minimum total effort you need to put to obtain a leveled area.
 
 
@@ -51,15 +51,15 @@ OK (1 test, 4 assertions)
 
 ```
 
---- 
+---
 
 
 
-## [**Sujet 2**]()
+## [**Sujet 2**](/js/DoubleXor.js)
 
-### [**Problem Statement**]()
+### [**Problem Statement**](/js/DoubleXor.js)
 
- 
+
 Let us introduce a new operation called double xor, and use the operator ^^ to denote it.
 For two integers A and B, A ^^ B is calculated as follows:
 
@@ -74,7 +74,7 @@ C = A ^^ B will consist of the digits c1, c2, . . . , cn   ( from left to right 
 ci = (ai ^ bi)  % 10, where ^ is the usual bitwise XOR operator (see notes for exact definition) and x % y is the remainder of x divided by y.
 
 If C happens to have any extra leading zeroes, they are ignored.
-When multiple ^^ operations occur in an expression, they must be evaluated from left to right. 
+When multiple ^^ operations occur in an expression, they must be evaluated from left to right.
 
 For example, A ^^ B ^^ C means (A ^^ B) ^^ C.
 
