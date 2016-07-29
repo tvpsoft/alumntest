@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Phuong AlumnTest | DoubleXor</title>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.0.1.css">
+</head>
+
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="https://code.jquery.com/qunit/qunit-2.0.1.js"></script>
+  <script src="DoubleXor.js"></script>
+
+  <script>
+    QUnit.test( "DoubleXor", function( assert ) {
+      // doubleXor initialized
+      let doubleXor = new DoubleXor();
+      // Test alumnFore cases
+      assert.equal(doubleXor.calculate(1), 1, "We expect value of doubleXor.calculate(1) to be 1" );
+      assert.equal(doubleXor.calculate(2), 3, "We expect value of doubleXor.calculate(2) to be 3" );
+      assert.equal(doubleXor.calculate(7), 0, "We expect value of doubleXor.calculate(7) to be 0" );
+      assert.equal(doubleXor.calculate(10), 11, "We expect value of doubleXor.calculate(10) to be 11" );
+      assert.equal(doubleXor.calculate(102), 103, "We expect value of doubleXor.calculate(102) to be 103" );
+      // Test exceptions
+      assert.equal(doubleXor.calculate(0), -1, "We expect value of doubleXor.calculate(0) to be -1" );
+      assert.equal(doubleXor.calculate(2000000), -1, "We expect value of doubleXor.calculate(2000000) to be -1" );
+
+    });
+  </script>
+</body>
+</html>
