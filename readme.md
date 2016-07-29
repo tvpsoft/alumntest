@@ -47,7 +47,7 @@ PHPUnit 5.4.8 by Sebastian Bergmann and contributors.
 
 Time: 96 ms, Memory: 13.50MB
 
-OK (1 test, 4 assertions)
+OK (1 test, 8 assertions)
 
 ```
 
